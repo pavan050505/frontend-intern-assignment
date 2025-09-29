@@ -145,7 +145,3 @@ Use environment variable configuration
 MIT License
 
 ---
-
-This README is **clean, professional, and fully descriptive**, perfect for a GitHub submission for your internship assignment.  
-
-If you want, I can also **add badges for Node, React, and MongoDB** to make it look even more professional. Do you want me to do that?
