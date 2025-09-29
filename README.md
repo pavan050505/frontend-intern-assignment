@@ -49,8 +49,6 @@ package.json
 assignment.postman_collection.json
 README.md
 
-yaml
-Copy code
 
 ---
 
@@ -72,62 +70,54 @@ copy .env.example .env      # Windows
 npm install
 npm run dev
 Default .env values:
-
-ini
-Copy code
 PORT=4000
 MONGO_URI=mongodb://localhost:27017/scalable_app
 JWT_SECRET=changemeplease
 CLIENT_ORIGIN=http://localhost:5173
+
 Seed Data
-bash
-Copy code
 cd backend
 npm run seed
+
 Seeded accounts:
 
-user1@example.com / password123
+user1@example.com
+ / password123
 
-user2@example.com / password123
+user2@example.com
+ / password123
 
-🌐 Frontend Setup
-bash
-Copy code
-cd frontend
+ 🌐 Frontend Setup
+ cd frontend
 npm install
 npm run dev
-Open in browser: http://localhost:5173
 
 📡 API Quick Reference
-Method	Endpoint	Description
-POST	/api/auth/register	Register a new user
-POST	/api/auth/login	Login user and get JWT
-GET	/api/auth/me	Fetch current user profile
-GET	/api/tasks	Get all tasks
-POST	/api/tasks	Create a new task
-PUT	/api/tasks/:id	Update a task
-DELETE	/api/tasks/:id	Delete a task
-GET	/api/users/me	Get current user profile
-PUT	/api/users/me	Update current user profile
-
-Import assignment.postman_collection.json into Postman to test endpoints.
+| Method | Endpoint           | Description                 |
+| ------ | ------------------ | --------------------------- |
+| POST   | /api/auth/register | Register a new user         |
+| POST   | /api/auth/login    | Login user and get JWT      |
+| GET    | /api/auth/me       | Fetch current user profile  |
+| GET    | /api/tasks         | Get all tasks               |
+| POST   | /api/tasks         | Create a new task           |
+| PUT    | /api/tasks/:id     | Update a task               |
+| DELETE | /api/tasks/:id     | Delete a task               |
+| GET    | /api/users/me      | Get current user profile    |
+| PUT    | /api/users/me      | Update current user profile |
 
 🧹 Lint & Format
-Backend:
 
-bash
-Copy code
+Backend:
 cd backend
 npm run lint
 npm run format
-Frontend:
 
-bash
-Copy code
+Frontend:
 cd frontend
 npm run lint
 npm run format
 📈 How to Scale (Notes)
+
 Frontend:
 
 Add API layer with typed SDK
@@ -151,9 +141,11 @@ Deploy behind reverse proxy
 Use environment variable configuration
 
 📄 License
+
 MIT License
 
-yaml
-Copy code
-
 ---
+
+This README is **clean, professional, and fully descriptive**, perfect for a GitHub submission for your internship assignment.  
+
+If you want, I can also **add badges for Node, React, and MongoDB** to make it look even more professional. Do you want me to do that?
